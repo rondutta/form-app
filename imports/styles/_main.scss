@@ -1,0 +1,31 @@
+*{ 
+    margin: 0;
+    padding: 0;    
+}
+
+html{
+    font-size: 75%;
+}
+
+body{
+    background: #130f40;
+    font-size: 1.6rem;
+}
+
+h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+    padding: 5px;
+    border: 4px solid #130f40;
+    background: whitesmoke;
+}
+
+input, button, select {
+    font-size: 1.4rem;
+}
+
+@import './components/form';
+@import './components/_button';
+@import './components/_titlebar';
+@import './components/_footer';

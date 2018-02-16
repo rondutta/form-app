@@ -1,0 +1,14 @@
+.form {
+    display:block;
+    padding: 1rem;
+    padding-bottom: 30%;
+}
+.form__element {
+    border: 4px solid #e8e8e8;
+    flex-grow: 1;
+    background-color: whitesmoke;
+    padding: 2rem 2rem;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-bottom: 2rem;
+}
